@@ -1,0 +1,20 @@
+﻿<nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-header">
+        <a href="/" class="navbar-brand"><span class="brand-title">Expense Tracker</span></a>
+        <a class="btn navbar-btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <div class="pull-right navbar-logo" ng-controller="header as vm">
+            <ul class="nav navbar-nav pull-right">
+                <li ng-show="user.isAuthenticated"><a href="#">Welcome {{user.username}}!</a></li>               
+                <li ng-hide="user.isAuthenticated"><a ui-sref="register">Sing up</a></li>
+                <li ng-hide="user.isAuthenticated"><a ui-sref="login">Sing in</a></li>
+                <li ng-show="user.isAuthenticated"><a ng-click="vm.logOut()">Sing out</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

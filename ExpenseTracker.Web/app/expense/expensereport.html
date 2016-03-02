@@ -1,0 +1,18 @@
+﻿<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Week number</th>
+            <th>Amount ($)</th>
+            <th>Average ($)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-ng-repeat="item in vm.expensesInReport">
+            <td>{{item.year}}</td>
+            <td>{{item.weekNumber}}</td>
+            <td>{{item.amount}}</td>
+            <td>{{Math.round(item.average * 100) / 100}}</td>
+        </tr>
+    </tbody>
+</table>

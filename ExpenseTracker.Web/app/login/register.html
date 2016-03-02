@@ -1,0 +1,38 @@
+﻿<section class="mainbar" data-ng-controller="register as vm">
+    <section class="matter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="widget wviolet">
+                        <div data-cc-widget-header title="{{vm.title}}"></div>
+                        <div class="widget-content user">
+                            <h4>Create a new account</h4>                            
+                        </div>
+                        <div class="widget-foot">
+                            <form id="login-form" ng-submit="register()">
+                                <div class="alert alert-danger" ng-show="errors.length > 0">
+                                    <div class="row" ng-repeat="error in errors">
+                                        <div style="padding-left: 25px;">{{error}}</div>                      
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" maxlength="100" placeholder="Username" ng-model="vm.username" focus-on="focusMe" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" maxlength="100" placeholder="Password" ng-model="vm.password" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" maxlength="100" placeholder="Confirm password" ng-model="vm.confirmPassword" />
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary" id="registeFormSubmitButton">Register</button>
+                                </div>
+                            </form>
+                            <p><a href="#/login" data-bind="click: login">Log in</a> if you already have a local account.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

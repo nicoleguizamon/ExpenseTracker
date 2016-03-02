@@ -1,0 +1,32 @@
+﻿<section id="home-view" class="mainbar" data-ng-controller="home as vm">
+    <section class="matter">
+        <div class="container">            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="widget wviolet">
+                        <div data-cc-widget-header title="Expense Tracker Project"
+                             allow-collapse="true"></div>
+                        <div class="widget-content text-info">
+                            <table class="table table-condensed table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Project Requirements:</th>                                       
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-ng-repeat="r in vm.requirements">
+                                        <td>{{r.description}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="widget-foot">
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</section>

@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\ToptalDeploy\web</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app/app.js">
+      <publishTime>06/14/2014 02:20:44</publishTime>
+    </File>
+    <File Include="app/common/bootstrap/bootstrap.dialog.js">
+      <publishTime>06/05/2014 16:10:19</publishTime>
+    </File>
+    <File Include="app/common/common.js">
+      <publishTime>06/01/2014 23:36:03</publishTime>
+    </File>
+    <File Include="app/common/logger.js">
+      <publishTime>06/01/2014 23:36:03</publishTime>
+    </File>
+    <File Include="app/common/spinner.js">
+      <publishTime>06/01/2014 23:36:03</publishTime>
+    </File>
+    <File Include="app/config.exceptionHandler.js">
+      <publishTime>06/01/2014 23:36:03</publishTime>
+    </File>
+    <File Include="app/config.js">
+      <publishTime>06/14/2014 02:32:58</publishTime>
+    </File>
+    <File Include="app/config.route.js">
+      <publishTime>06/10/2014 21:43:16</publishTime>
+    </File>
+    <File Include="app/expense/expensedetail.html">
+      <publishTime>06/15/2014 21:06:01</publishTime>
+    </File>
+    <File Include="app/expense/expensedetail.js">
+      <publishTime>06/15/2014 21:05:37</publishTime>
+    </File>
+    <File Include="app/expense/expensereport.html">
+      <publishTime>06/14/2014 18:57:03</publishTime>
+    </File>
+    <File Include="app/expense/expenses.html">
+      <publishTime>06/14/2014 01:18:54</publishTime>
+    </File>
+    <File Include="app/expense/expenses.js">
+      <publishTime>06/14/2014 18:59:35</publishTime>
+    </File>
+    <File Include="app/home/home.html">
+      <publishTime>06/03/2014 19:38:32</publishTime>
+    </File>
+    <File Include="app/home/home.js">
+      <publishTime>06/14/2014 03:03:43</publishTime>
+    </File>
+    <File Include="app/layout/header.js">
+      <publishTime>06/04/2014 20:36:32</publishTime>
+    </File>
+    <File Include="app/layout/shell.html">
+      <publishTime>06/08/2014 19:41:19</publishTime>
+    </File>
+    <File Include="app/layout/shell.js">
+      <publishTime>06/11/2014 10:59:21</publishTime>
+    </File>
+    <File Include="app/layout/sidebar.html">
+      <publishTime>06/10/2014 21:38:09</publishTime>
+    </File>
+    <File Include="app/layout/sidebar.js">
+      <publishTime>06/14/2014 03:04:40</publishTime>
+    </File>
+    <File Include="app/layout/topnav.html">
+      <publishTime>06/08/2014 22:17:56</publishTime>
+    </File>
+    <File Include="app/layout/widgetheader.html">
+      <publishTime>06/01/2014 23:36:02</publishTime>
+    </File>
+    <File Include="app/login/login.html">
+      <publishTime>06/13/2014 22:54:27</publishTime>
+    </File>
+    <File Include="app/login/login.js">
+      <publishTime>06/05/2014 01:27:54</publishTime>
+    </File>
+    <File Include="app/login/logout.js">
+      <publishTime>06/04/2014 19:52:58</publishTime>
+    </File>
+    <File Include="app/login/register.html">
+      <publishTime>06/13/2014 22:54:38</publishTime>
+    </File>
+    <File Include="app/login/register.js">
+      <publishTime>06/15/2014 17:11:29</publishTime>
+    </File>
+    <File Include="app/services/datacontext.js">
+      <publishTime>06/14/2014 03:07:45</publishTime>
+    </File>
+    <File Include="app/services/directives.js">
+      <publishTime>06/11/2014 18:36:13</publishTime>
+    </File>
+    <File Include="app/services/focus.js">
+      <publishTime>06/04/2014 23:55:35</publishTime>
+    </File>
+    <File Include="app/services/helper.js">
+      <publishTime>06/14/2014 03:21:58</publishTime>
+    </File>
+    <File Include="app/services/repositories.js">
+      <publishTime>06/05/2014 20:28:57</publishTime>
+    </File>
+    <File Include="app/services/repository.abstract.js">
+      <publishTime>06/14/2014 03:21:44</publishTime>
+    </File>
+    <File Include="app/services/repository.expense.js">
+      <publishTime>06/15/2014 16:57:22</publishTime>
+    </File>
+    <File Include="app/services/userAccount.js">
+      <publishTime>06/15/2014 16:37:08</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:54</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:57</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:47</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:54</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:57</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:47</publishTime>
+    </File>
+    <File Include="bin/ExpenseTracker.Web.dll">
+      <publishTime>06/14/2014 19:20:06</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:54</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:57</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:47</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:54</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:57</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:47</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:55</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:57</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:48</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:55</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:57</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>06/07/2014 13:07:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>06/07/2014 13:07:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>06/01/2014 21:34:40</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/07/2014 18:03:05</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:55</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:58</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>06/07/2014 15:24:50</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>06/07/2014 13:07:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>06/07/2014 15:24:55</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>06/07/2014 15:24:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>06/09/2014 11:35:17</publishTime>
+    </File>
+    <File Include="bin/WebActivator.dll">
+      <publishTime>06/01/2014 21:48:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:58</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:49</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/07/2014 13:07:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/07/2014 13:07:58</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>06/07/2014 13:07:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-responsive.css">
+      <publishTime>11/27/2013 16:05:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap-responsive.min.css">
+      <publishTime>11/27/2013 16:05:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="Content/breeze.directives.css">
+      <publishTime>01/02/2014 22:13:59</publishTime>
+    </File>
+    <File Include="Content/customtheme.css">
+      <publishTime>06/07/2014 19:50:12</publishTime>
+    </File>
+    <File Include="Content/dialogs.min.css">
+      <publishTime>05/27/2014 16:24:56</publishTime>
+    </File>
+    <File Include="Content/font-awesome-ie7.css">
+      <publishTime>11/27/2013 16:05:50</publishTime>
+    </File>
+    <File Include="Content/font-awesome-ie7.min.css">
+      <publishTime>11/27/2013 16:05:50</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>11/27/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>11/27/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Content/font/fontawesome-webfont.eot">
+      <publishTime>11/27/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Content/font/fontawesome-webfont.svg">
+      <publishTime>11/27/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Content/font/fontawesome-webfont.ttf">
+      <publishTime>11/27/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Content/font/fontawesome-webfont.woff">
+      <publishTime>11/27/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Content/font/FontAwesome.otf">
+      <publishTime>11/27/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Content/ie10mobile.css">
+      <publishTime>06/01/2014 23:36:02</publishTime>
+    </File>
+    <File Include="Content/images/AngularJS-small.png">
+      <publishTime>06/01/2014 23:36:02</publishTime>
+    </File>
+    <File Include="Content/images/breezelogo.png">
+      <publishTime>06/01/2014 23:36:02</publishTime>
+    </File>
+    <File Include="Content/images/glyphicons-halflings-white.png">
+      <publishTime>11/27/2013 16:05:56</publishTime>
+    </File>
+    <File Include="Content/images/glyphicons-halflings.png">
+      <publishTime>11/27/2013 16:05:56</publishTime>
+    </File>
+    <File Include="Content/images/icon.png">
+      <publishTime>06/14/2014 03:25:59</publishTime>
+    </File>
+    <File Include="Content/jquery.datetimepicker.css">
+      <publishTime>06/05/2014 23:35:44</publishTime>
+    </File>
+    <File Include="Content/styles.css">
+      <publishTime>06/07/2014 11:21:46</publishTime>
+    </File>
+    <File Include="Content/toastr.css">
+      <publishTime>06/01/2014 23:35:54</publishTime>
+    </File>
+    <File Include="Content/toastr.less">
+      <publishTime>06/01/2014 23:35:54</publishTime>
+    </File>
+    <File Include="Content/toastr.min.css">
+      <publishTime>06/01/2014 23:35:54</publishTime>
+    </File>
+    <File Include="Content/toastr.scss">
+      <publishTime>06/01/2014 23:35:54</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>06/13/2014 21:43:19</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>06/01/2014 23:35:48</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>06/01/2014 23:35:48</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>06/01/2014 23:35:48</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>06/01/2014 23:35:48</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>06/01/2014 23:35:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>06/14/2014 03:30:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/09/2014 12:35:51</publishTime>
+    </File>
+    <File Include="Scripts/angular-animate.js">
+      <publishTime>06/01/2014 23:36:00</publishTime>
+    </File>
+    <File Include="Scripts/angular-animate.min.js">
+      <publishTime>06/01/2014 23:36:00</publishTime>
+    </File>
+    <File Include="Scripts/angular-animate.min.js.map">
+      <publishTime>06/01/2014 23:36:00</publishTime>
+    </File>
+    <File Include="Scripts/angular-cookies.js">
+      <publishTime>06/03/2014 01:13:04</publishTime>
+    </File>
+    <File Include="Scripts/angular-cookies.min.js">
+      <publishTime>06/03/2014 01:13:04</publishTime>
+    </File>
+    <File Include="Scripts/angular-cookies.min.js.map">
+      <publishTime>06/03/2014 01:13:04</publishTime>
+    </File>
+    <File Include="Scripts/angular-mocks.js">
+      <publishTime>06/01/2014 23:35:56</publishTime>
+    </File>
+    <File Include="Scripts/angular-resource.js">
+      <publishTime>06/03/2014 01:11:57</publishTime>
+    </File>
+    <File Include="Scripts/angular-resource.min.js">
+      <publishTime>06/03/2014 01:11:57</publishTime>
+    </File>
+    <File Include="Scripts/angular-resource.min.js.map">
+      <publishTime>06/03/2014 01:11:57</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.js">
+      <publishTime>06/01/2014 23:36:00</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.min.js">
+      <publishTime>06/01/2014 23:35:59</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.min.js.map">
+      <publishTime>06/01/2014 23:35:59</publishTime>
+    </File>
+    <File Include="Scripts/angular-sanitize.js">
+      <publishTime>06/01/2014 23:36:00</publishTime>
+    </File>
+    <File Include="Scripts/angular-sanitize.min.js">
+      <publishTime>06/01/2014 23:36:00</publishTime>
+    </File>
+    <File Include="Scripts/angular-sanitize.min.js.map">
+      <publishTime>06/01/2014 23:36:00</publishTime>
+    </File>
+    <File Include="Scripts/angular.breeze.storagewip.js">
+      <publishTime>01/06/2014 21:46:42</publishTime>
+    </File>
+    <File Include="Scripts/angular.js">
+      <publishTime>06/01/2014 23:35:57</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js">
+      <publishTime>06/01/2014 23:35:56</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js.map">
+      <publishTime>06/01/2014 23:35:56</publishTime>
+    </File>
+    <File Include="Scripts/AngularUI/ui-router.js">
+      <publishTime>06/03/2014 01:10:12</publishTime>
+    </File>
+    <File Include="Scripts/AngularUI/ui-router.min.js">
+      <publishTime>06/03/2014 01:10:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>06/01/2014 23:35:55</publishTime>
+    </File>
+    <File Include="Scripts/breeze.debug.js">
+      <publishTime>11/27/2013 16:13:34</publishTime>
+    </File>
+    <File Include="Scripts/breeze.directives.validation.js">
+      <publishTime>01/02/2014 22:13:59</publishTime>
+    </File>
+    <File Include="Scripts/breeze.min.js">
+      <publishTime>11/27/2013 16:13:34</publishTime>
+    </File>
+    <File Include="Scripts/breeze.saveErrorExtensions.js">
+      <publishTime>11/27/2013 16:13:42</publishTime>
+    </File>
+    <File Include="Scripts/breeze.to%24q.js">
+      <publishTime>11/27/2013 16:13:42</publishTime>
+    </File>
+    <File Include="Scripts/dialogs.min.js">
+      <publishTime>05/27/2014 16:24:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.0.3.js">
+      <publishTime>06/01/2014 23:35:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.0.3.min.js">
+      <publishTime>06/01/2014 23:35:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.0.3.min.map">
+      <publishTime>06/01/2014 23:35:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery.datetimepicker.js">
+      <publishTime>06/05/2014 23:35:44</publishTime>
+    </File>
+    <File Include="Scripts/jspdf.js">
+      <publishTime>06/12/2014 00:14:24</publishTime>
+    </File>
+    <File Include="Scripts/jspdf.plugin.from_html.js">
+      <publishTime>11/01/2012 16:04:36</publishTime>
+    </File>
+    <File Include="Scripts/jspdf.plugin.split_text_to_size.js">
+      <publishTime>11/01/2012 16:04:36</publishTime>
+    </File>
+    <File Include="Scripts/jspdf.plugin.standard_fonts_metrics.js">
+      <publishTime>11/01/2012 16:04:36</publishTime>
+    </File>
+    <File Include="Scripts/moment-with-langs.js">
+      <publishTime>06/01/2014 23:35:52</publishTime>
+    </File>
+    <File Include="Scripts/moment-with-langs.min.js">
+      <publishTime>06/01/2014 23:35:52</publishTime>
+    </File>
+    <File Include="Scripts/moment.js">
+      <publishTime>06/01/2014 23:35:53</publishTime>
+    </File>
+    <File Include="Scripts/moment.min.js">
+      <publishTime>06/01/2014 23:35:52</publishTime>
+    </File>
+    <File Include="Scripts/q.js">
+      <publishTime>11/27/2013 16:13:34</publishTime>
+    </File>
+    <File Include="Scripts/spin.js">
+      <publishTime>06/01/2014 23:35:53</publishTime>
+    </File>
+    <File Include="Scripts/spin.min.js">
+      <publishTime>06/01/2014 23:35:53</publishTime>
+    </File>
+    <File Include="Scripts/toastr.js">
+      <publishTime>06/01/2014 23:35:54</publishTime>
+    </File>
+    <File Include="Scripts/toastr.min.js">
+      <publishTime>06/01/2014 23:35:54</publishTime>
+    </File>
+    <File Include="Scripts/toastr.min.js.map">
+      <publishTime>06/01/2014 23:35:54</publishTime>
+    </File>
+    <File Include="Scripts/ui-bootstrap-tpls-0.10.0.js">
+      <publishTime>06/01/2014 23:36:01</publishTime>
+    </File>
+    <File Include="Scripts/ui-bootstrap-tpls-0.10.0.min.js">
+      <publishTime>06/01/2014 23:36:01</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/15/2014 16:08:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
