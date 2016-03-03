@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{12595809-E5A7-4F17-B869-D3910B11234F}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,10 +17,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.DataAccess", "ExpenseTracker.DataAccess\ExpenseTracker.DataAccess.csproj", "{22C8842D-4672-4EEB-B941-123615BEC853}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.WebApi", "ExpenseTracker.WebApi\ExpenseTracker.WebApi.csproj", "{01A0A211-9A0C-4A5A-9CA8-4D2DC477D240}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.WebApi.Test", "ExpenseTracker.WebApi.Test\ExpenseTracker.WebApi.Test.csproj", "{AC494425-CAE5-48BE-8D6A-321CB9EF3BD5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFace", "WebFace\WebFace.csproj", "{B81F3B33-12F2-48DB-B1DA-6940FBF96D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,14 +40,6 @@ Global
 		{01A0A211-9A0C-4A5A-9CA8-4D2DC477D240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01A0A211-9A0C-4A5A-9CA8-4D2DC477D240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01A0A211-9A0C-4A5A-9CA8-4D2DC477D240}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC494425-CAE5-48BE-8D6A-321CB9EF3BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC494425-CAE5-48BE-8D6A-321CB9EF3BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC494425-CAE5-48BE-8D6A-321CB9EF3BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC494425-CAE5-48BE-8D6A-321CB9EF3BD5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B81F3B33-12F2-48DB-B1DA-6940FBF96D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B81F3B33-12F2-48DB-B1DA-6940FBF96D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B81F3B33-12F2-48DB-B1DA-6940FBF96D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B81F3B33-12F2-48DB-B1DA-6940FBF96D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
